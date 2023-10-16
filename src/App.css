@@ -1,0 +1,88 @@
+#card_volume {
+  background: #fff;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+}
+
+#card_volume > div:nth-child(1) {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+#card_volume > div:nth-child(2) {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#card_volume > div:nth-child(1) > svg {
+  height: 30px;
+  width: 30px;
+}
+
+#volume {
+ padding: 20px;
+ color: #555;
+}
+
+.btn {
+  padding: 8px 32px;
+  border: none;
+  color: #dadada;
+  border-radius: 19px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+
+.btn_dec {
+  background: rgb(4, 32, 135);
+}
+
+.btn_dec:hover {
+  background: rgb(0, 42, 196);
+  scale: 1.03;
+}
+
+.btn_inc {
+  background: rgb(164, 4, 4);
+}
+
+.btn_inc:hover {
+  background: rgb(213, 0, 0);
+  scale: 1.03;
+}
+.card{
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+button{
+  width: 60px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.result{
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
